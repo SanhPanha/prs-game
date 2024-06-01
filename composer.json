@@ -1,0 +1,26 @@
+{
+    "name": "name/rockpaperscissors",
+    "description": "Rock paper scissors game",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Name\\Rockpaperscissors\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Name\\Rockpaperscissors\\RockPaperScissorsServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Soknin Seng",
+            "email": "sengsoknin8@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
